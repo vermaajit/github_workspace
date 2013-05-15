@@ -25,5 +25,6 @@ private class CheckUpdateInGitHub {
     static testMethod void myUnitTest() {
         // TO DO: implement unit test
         // I added this comment just to check updates from GitHub to Client
+        // One more line added as part of update to SFDC......................
     }
 }
