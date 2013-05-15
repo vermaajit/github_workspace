@@ -1,0 +1,16 @@
+<apex:page showHeader="false" action="{!signUp}" sidebar="false" standardController="vforce__Volunteer_Activity__c" extensions="vforce.VolActivitySignMeUpControllerExt" >                
+<apex:image id="theImage" value="{!URLFOR(getVolunteerforceImageUrl)}"/>        
+<apex:form >                    
+<apex:panelGrid columns="1" id="theGrid">                
+<apex:outputPanel id="namePanel" layout="block">                    
+Signing Up {!$User.FirstName} {!$User.LastName}...                 
+</apex:outputPanel>                
+<apex:outputPanel id="outPanel" layout="block">                     
+<apex:pageMessages /> <apex:actionStatus startText="Sign Up in Progress..." stopText="" id="myStatus"> </apex:actionStatus>                 
+</apex:outputPanel>                
+<apex:outputPanel id="closePanel" layout="block">                    
+<c:VolActivitySignMeUpCloseButtonComponent url="{!URLFOR($Action.Volunteer_Activity__c.View, vforce__Volunteer_Activity__c.Id)}"/>                 
+</apex:outputPanel>            
+</apex:panelGrid>                    
+</apex:form>                
+</apex:page>

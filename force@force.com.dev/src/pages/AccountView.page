@@ -1,0 +1,3 @@
+<apex:page standardController="Account">
+    <apex:outputField value="{!Account.name}"/>
+</apex:page>

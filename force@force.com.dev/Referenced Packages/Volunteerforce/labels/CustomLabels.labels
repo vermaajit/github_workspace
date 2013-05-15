@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CancellationFailedInternalError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CancellationFailedInternalError</shortDescription>
+        <value>Cancellation failed: internal error=</value>
+    </labels>
+    <labels>
+        <fullName>CancellationFailedParticipantsCouldNotUpdateDuration</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CancellationFailedParticipantsCouldNotUpdateDuration</shortDescription>
+        <value>Cancellation failed: could not set volunteer activity duration hours to zero for cancelled activity.</value>
+    </labels>
+    <labels>
+        <fullName>CancellationFailedVolActivityNotFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CancellationFailedVolActivityNotFound</shortDescription>
+        <value>Cancellation failed: volunteer activity not found for id=</value>
+    </labels>
+    <labels>
+        <fullName>CancellationFailedVolOrganizationNotFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CancellationFailedVolOrganizationNotFound</shortDescription>
+        <value>Cancellation failed: volunteer organization not found for id=</value>
+    </labels>
+    <labels>
+        <fullName>CancellationStatusUpdateFailure</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CancellationStatusUpdateFailure</shortDescription>
+        <value>An error occured while updating the volunteer activity status. Please contact your System Adminstrator.</value>
+    </labels>
+    <labels>
+        <fullName>CancellationSuccessful</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CancellationSuccessful</shortDescription>
+        <value>Cancellation successful</value>
+    </labels>
+    <labels>
+        <fullName>CancellationVolActivityAlreadyCancelled</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CancellationVolActivityAlreadyCancelled</shortDescription>
+        <value>Volunteer activity already cancelled.</value>
+    </labels>
+    <labels>
+        <fullName>EmailSenderDisplayName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EmailSenderDisplayName</shortDescription>
+        <value>Volunteerforce</value>
+    </labels>
+    <labels>
+        <fullName>InvalidParameter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InvalidParameter</shortDescription>
+        <value>An invalid parameter was given to a Volunteerforce operation.</value>
+    </labels>
+    <labels>
+        <fullName>ReminderFailedEventCancelled</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReminderFailedEventCancelled</shortDescription>
+        <value>Cannot send reminder for a cancelled event.</value>
+    </labels>
+    <labels>
+        <fullName>ReminderFailedEventCompleted</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReminderFailedEventCompleted</shortDescription>
+        <value>Event has already completed: no reminders were sent.</value>
+    </labels>
+    <labels>
+        <fullName>ReminderFailedInternalError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReminderFailedInternalError</shortDescription>
+        <value>Send reminder failed: internal error=</value>
+    </labels>
+    <labels>
+        <fullName>ReminderFailedOrganizationNotFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReminderFailedOrganizationNotFound</shortDescription>
+        <value>Reminder Failed: volunteer organization not found for id=</value>
+    </labels>
+    <labels>
+        <fullName>ReminderSuccessfulAllParticipants</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReminderSuccessfulAllParticipants</shortDescription>
+        <value>An email reminder was sent to all event participants.</value>
+    </labels>
+    <labels>
+        <fullName>ReminderSuccessfulNoParticipants</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReminderSuccessfulNoParticipants</shortDescription>
+        <value>No volunteer participants to send reminder to.</value>
+    </labels>
+    <labels>
+        <fullName>RequestFailedVolActivityNotFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>RequestFailedVolActivityNotFound</shortDescription>
+        <value>Request failed: volunteer activity not found for id=</value>
+    </labels>
+    <labels>
+        <fullName>SignupFailedCancelled</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupFailedCancelled</shortDescription>
+        <value>Signup failed: volunteer activity is cancelled.</value>
+    </labels>
+    <labels>
+        <fullName>SignupFailedEventCompleted</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupFailedEventCompleted</shortDescription>
+        <value>Event has already completed: no signup messages were sent.</value>
+    </labels>
+    <labels>
+        <fullName>SignupFailedInternalError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupFailedInternalError</shortDescription>
+        <value>Signup user validation failed: internal error=</value>
+    </labels>
+    <labels>
+        <fullName>SignupFailedMaxLimitReached</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupFailedMaxLimitReached</shortDescription>
+        <value>Signup failed: the maximum number of volunteers has been reached. Limit=</value>
+    </labels>
+    <labels>
+        <fullName>SignupFailedUserNotFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupFailedUserNotFound</shortDescription>
+        <value>Signup failed: user not found for id=</value>
+    </labels>
+    <labels>
+        <fullName>SignupFailedVolActivityNotFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupFailedVolActivityNotFound</shortDescription>
+        <value>Signup failed: volunteer activity not found for id=</value>
+    </labels>
+    <labels>
+        <fullName>SignupMassFailedMaxLimitReached</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupMassFailedMaxLimitReached</shortDescription>
+        <value>Mass signup failed: the maximum number of volunteers has been exceeded.</value>
+    </labels>
+    <labels>
+        <fullName>SignupMassFailedNoUsersFounds</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupMassFailedNoUsersFounds</shortDescription>
+        <value>Mass signup failed: no users not found.</value>
+    </labels>
+    <labels>
+        <fullName>SignupMassSelectAtLeastOneUser</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupMassSelectAtLeastOneUser</shortDescription>
+        <value>Please select at least one user.</value>
+    </labels>
+    <labels>
+        <fullName>SignupSuccessful</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupSuccessful</shortDescription>
+        <value>Signup successful.</value>
+    </labels>
+    <labels>
+        <fullName>SignupUserAlreadySignedUp</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupUserAlreadySignedUp</shortDescription>
+        <value>User is already signed up for activity: user=</value>
+    </labels>
+    <labels>
+        <fullName>SignupValidationSuccessful</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignupValidationSuccessful</shortDescription>
+        <value>Signup validation successful.</value>
+    </labels>
+    <labels>
+        <fullName>UpdateFailedEventCancelled</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UpdateFailedEventCancelled</shortDescription>
+        <value>Cannot send update for a cancelled event.</value>
+    </labels>
+    <labels>
+        <fullName>UpdateFailedEventCompleted</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UpdateFailedEventCompleted</shortDescription>
+        <value>Event has already completed: no updates were sent.</value>
+    </labels>
+    <labels>
+        <fullName>UpdateFailedInternalError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UpdateFailedInternalError</shortDescription>
+        <value>Send update failed: internal error=</value>
+    </labels>
+    <labels>
+        <fullName>UpdateFailedOrganizationNotFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UpdateFailedOrganizationNotFound</shortDescription>
+        <value>Update Failed: volunteer organization not found for id=</value>
+    </labels>
+    <labels>
+        <fullName>UpdateFailedVolActivityNotFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UpdateFailedVolActivityNotFound</shortDescription>
+        <value>Update failed: volunteer activity not found for id=</value>
+    </labels>
+    <labels>
+        <fullName>UpdateSuccessfulAllParticipants</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UpdateSuccessfulAllParticipants</shortDescription>
+        <value>An email update was sent to all event participants.</value>
+    </labels>
+    <labels>
+        <fullName>UpdateSuccessfulDateAndTime</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UpdateSuccessfulDateAndTime</shortDescription>
+        <value>The volunteer activity&apos;s date and time were successfully updated.</value>
+    </labels>
+    <labels>
+        <fullName>UpdateSuccessfulNoParticipants</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UpdateSuccessfulNoParticipants</shortDescription>
+        <value>No volunteer participants to send update to.</value>
+    </labels>
+    <labels>
+        <fullName>VolActivityStatusCancelled</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>VolActivityStatusCancelled</shortDescription>
+        <value>Cancelled</value>
+    </labels>
+    <labels>
+        <fullName>VolActivityWizardActivityTypeOngoingOpp</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Volunteer Activity Type Ongoing Opp</shortDescription>
+        <value>On-Going Opportunity (with a specific location)</value>
+    </labels>
+    <labels>
+        <fullName>VolActivityWizardActivityTypeOngoingOppNoLoc</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Volunteer Activity Type Ongoing Opportunity No Location</shortDescription>
+        <value>On-Going Opportunity (without a specific location)</value>
+    </labels>
+    <labels>
+        <fullName>VolActivityWizardActivityTypeVolEvent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Volunteer Activity Type Volunteer Event</shortDescription>
+        <value>Volunteer Event (with a specific date and time)</value>
+    </labels>
+</CustomLabels>

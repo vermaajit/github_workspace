@@ -1,0 +1,52 @@
+<messaging:emailTemplate subject="Signup: {!relatedTo.name} Event Signup" recipientType="User" relatedToType="vforce__Volunteer_Activity__c">
+<messaging:plainTextEmailBody >
+Congratulations! You have just signed up for the following volunteer activity:
+
+Activity name: {!relatedTo.name}
+Activity Category: {!relatedTo.Volunteer_Events__c}
+Volunteer Organization: {!relatedTo.Volunteer_Organization__r.Name}
+Duration: {!relatedTo.Duration_hours__c}
+Location: 
+• {!relatedTo.Street__c}
+• {!relatedTo.City__c}
+• {!relatedTo.State_Province__c}
+
+Activity Summary:{!relatedTo.Description__c}
+
+Activity Description (Details): {!relatedTo.Event_Summary__c}
+
+
+For more information go to  https://login.salesforce.com/?startURL=/{!relatedTo.id}
+-----------------------------------
+ 
+
+</messaging:plainTextEmailBody>
+
+<messaging:htmlEmailBody >
+<font face="verdana" size="2">
+<b>{!recipient.name} Congratulations!</b> <p>You have just signed up for the following volunteer activity:</p>
+
+<br/>Activity Name: {!relatedTo.name}
+<br/>Activity Category: {!relatedTo.Volunteer_Events__c}
+<br/>Volunteer Organization: <a href="https://login.salesforce.com/?startURL=/{!relatedTo.Volunteer_Organization__c}">{!relatedTo.Volunteer_Organization__r.Name}</a>
+<br/>Duration: {!relatedTo.Duration_hours__c}
+<br/>Location: 
+<ul>
+<li>{!relatedTo.Street__c}</li>
+<li>{!relatedTo.City__c}</li>
+<li>{!relatedTo.State_Province__c}</li>
+</ul>
+<p>Activity Summary: {!relatedTo.Description__c}</p>
+<p>
+Activity Description (Details): {!relatedTo.Event_Summary__c}
+</p>
+<p>
+
+For more information: click <a href="https://login.salesforce.com/?startURL=/{!relatedTo.id}">here</a>
+
+</p>
+-----------------------------------
+ </font><br/>
+<img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=015A00000009qW6&oid=00DA0000000HkWI&lastMod=1221863256000" border="0"/>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>Find_an_Activity</links>
+    <links>Activity_Wizard</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

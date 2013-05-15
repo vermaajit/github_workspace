@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <customHelp>Organization_Help_Doc</customHelp>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Manages information about Organizations that sponsor Volunteer Activities.</description>
+    <enableActivities>true</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Afghanistan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Australia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bhutan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cambodia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Canada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Costa Rica</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Croatia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>East Timor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Egypt</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ethiopia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Europe</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Finland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>France</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Germany</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ghana</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Honduras</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hungary</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>India</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Indonesia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ireland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Israel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Italy</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Japan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kenya</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Korea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Laos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Latvia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nepal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Norway</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Palestine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>People&apos;s Republic of China</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Peru</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Poland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Romania</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sierra Leone</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singapore</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>South Africa</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>South Korea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sri Lanka</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sudan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Switzerland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tanzania</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Thailand</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trinidad &amp; Tobago</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>United Kingdom</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>United States</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vietnam</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Mission</label>
+        <length>32000</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Fax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Fax</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Map_It__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;http://maps.google.com/maps?q=&quot; &amp;  Street__c  &amp; &quot; &quot; &amp;  City__c  &amp; &quot; &quot; &amp;  Zip_Postal_Code__c , &quot;Click to Map&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Map It!</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Organization_Cause__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Organization Cause</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Animal Related</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BCorp</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Culture</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Economic Development</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Education K-12</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Environment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Humanities</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Human Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>International Development</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Public/Social Benefit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Religious</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Research</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Social Justice</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Youth</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Organization__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Parent Organization</label>
+        <referenceTo>Volunteer_Organization__c</referenceTo>
+        <relationshipLabel>Subsidiary Organizations</relationshipLabel>
+        <relationshipName>ChildOrganization</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>State_Province__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>State/Province</label>
+        <picklist>
+            <controllingField>Country__c</controllingField>
+            <picklistValues>
+                <fullName>Not Required</fullName>
+                <controllingFieldValues>Afghanistan</controllingFieldValues>
+                <controllingFieldValues>Australia</controllingFieldValues>
+                <controllingFieldValues>Belgium</controllingFieldValues>
+                <controllingFieldValues>Bhutan</controllingFieldValues>
+                <controllingFieldValues>Brazil</controllingFieldValues>
+                <controllingFieldValues>Cambodia</controllingFieldValues>
+                <controllingFieldValues>Costa Rica</controllingFieldValues>
+                <controllingFieldValues>Croatia</controllingFieldValues>
+                <controllingFieldValues>East Timor</controllingFieldValues>
+                <controllingFieldValues>Egypt</controllingFieldValues>
+                <controllingFieldValues>Ethiopia</controllingFieldValues>
+                <controllingFieldValues>Europe</controllingFieldValues>
+                <controllingFieldValues>Finland</controllingFieldValues>
+                <controllingFieldValues>France</controllingFieldValues>
+                <controllingFieldValues>Germany</controllingFieldValues>
+                <controllingFieldValues>Ghana</controllingFieldValues>
+                <controllingFieldValues>Honduras</controllingFieldValues>
+                <controllingFieldValues>Hungary</controllingFieldValues>
+                <controllingFieldValues>India</controllingFieldValues>
+                <controllingFieldValues>Indonesia</controllingFieldValues>
+                <controllingFieldValues>Ireland</controllingFieldValues>
+                <controllingFieldValues>Israel</controllingFieldValues>
+                <controllingFieldValues>Italy</controllingFieldValues>
+                <controllingFieldValues>Japan</controllingFieldValues>
+                <controllingFieldValues>Kenya</controllingFieldValues>
+                <controllingFieldValues>Korea</controllingFieldValues>
+                <controllingFieldValues>Laos</controllingFieldValues>
+                <controllingFieldValues>Latvia</controllingFieldValues>
+                <controllingFieldValues>Mexico</controllingFieldValues>
+                <controllingFieldValues>Nepal</controllingFieldValues>
+                <controllingFieldValues>Netherlands</controllingFieldValues>
+                <controllingFieldValues>Norway</controllingFieldValues>
+                <controllingFieldValues>Palestine</controllingFieldValues>
+                <controllingFieldValues>People&apos;s Republic of China</controllingFieldValues>
+                <controllingFieldValues>Peru</controllingFieldValues>
+                <controllingFieldValues>Poland</controllingFieldValues>
+                <controllingFieldValues>Romania</controllingFieldValues>
+                <controllingFieldValues>Sierra Leone</controllingFieldValues>
+                <controllingFieldValues>Singapore</controllingFieldValues>
+                <controllingFieldValues>South Africa</controllingFieldValues>
+                <controllingFieldValues>South Korea</controllingFieldValues>
+                <controllingFieldValues>Spain</controllingFieldValues>
+                <controllingFieldValues>Sri Lanka</controllingFieldValues>
+                <controllingFieldValues>Sudan</controllingFieldValues>
+                <controllingFieldValues>Sweden</controllingFieldValues>
+                <controllingFieldValues>Switzerland</controllingFieldValues>
+                <controllingFieldValues>Tanzania</controllingFieldValues>
+                <controllingFieldValues>Thailand</controllingFieldValues>
+                <controllingFieldValues>Trinidad &amp; Tobago</controllingFieldValues>
+                <controllingFieldValues>United Kingdom</controllingFieldValues>
+                <controllingFieldValues>Vietnam</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Alabama (AL)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Alaska (AK)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Alberta (AB)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arizona (AZ)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arkansas (AR)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>British Columbia (BC)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>California (CA)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Colorado (CO)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Connecticut (CT)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delaware (DE)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>District of Columbia (DC)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Florida (FL)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Georgia (GA)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hawaii (HI)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Idaho (ID)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Illinois (IL)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Indiana (IN)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Iowa (IA)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kansas (KS)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kentucky (KY)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Louisiana (LA)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maine (ME)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Manitoba (MB)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maryland (MD)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Massachusetts (MA)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Michigan (MI)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Minnesota (MN)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mississippi (MS)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Missouri (MO)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Montana (MT)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nebraska (NE)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nevada (NV)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Brunswick (NB)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Newfoundland (NF)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Hampshire (NH)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Jersey (NJ)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Mexico (NM)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New York (NY)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>North Carolina (NC)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>North Dakota (ND)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Northwest Territories (NT)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nova Scotia (NS)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nunavut (NU)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ohio (OH)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oklahoma (OK)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ontario (ON)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oregon (OR)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pennsylvania (PA)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prince Edward Island (PE)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quebec (QC)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rhode Island (RI)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Saskatchewan (SK)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>South Carolina (SC)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>South Dakota (SD)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tennessee (TN)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Texas (TX)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Utah (UT)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vermont (VT)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Virginia (VA)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Washington (WA)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>West Virginia (WV)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wisconsin (WI)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wyoming (WY)</fullName>
+                <controllingFieldValues>United States</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yukon (YT)</fullName>
+                <controllingFieldValues>Canada</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Street</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Website__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Website</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Zip_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Zip/Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Volunteer Organization</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Organization_Cause__c</columns>
+        <columns>City__c</columns>
+        <columns>State_Province__c</columns>
+        <columns>Website__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Organization Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Volunteer Organizations</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>City__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>State_Province__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Organization_Cause__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>City__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>State_Province__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Phone__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Fax__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>City__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>State_Province__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>City__c</searchFilterFields>
+        <searchFilterFields>State_Province__c</searchFilterFields>
+        <searchFilterFields>Organization_Cause__c</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchResultsAdditionalFields>City__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>State_Province__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Organization_Cause__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Country_Conditionally_Required</fullName>
+        <active>true</active>
+        <description>The country is required if the zip code is populated, so that we can verify the zip code format.</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(Country__c,&quot;&quot;),
+Zip_Postal_Code__c &lt;&gt; &quot;&quot;
+)</errorConditionFormula>
+        <errorDisplayField>Country__c</errorDisplayField>
+        <errorMessage>Country is required when Zip Code is populated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>US_Zip_Code_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT(Zip_Postal_Code__c = &quot;&quot;),
+ISPICKVAL(Country__c, &quot;United States&quot;),
+NOT(REGEX( Zip_Postal_Code__c , &quot;\\d{5}(-\\d{4})?&quot;))
+)</errorConditionFormula>
+        <errorDisplayField>Zip_Postal_Code__c</errorDisplayField>
+        <errorMessage>US Zip Codes must be in 99999 or 99999-9999 format.</errorMessage>
+    </validationRules>
+</CustomObject>

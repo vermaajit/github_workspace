@@ -1,0 +1,56 @@
+<messaging:emailTemplate subject="Reminder:{!relatedTo.name} Event Reminder" recipientType="User" relatedToTYpe="vforce__Volunteer_Activity__c">
+<messaging:plainTextEmailBody >
+This is a friendly reminder that you have signed up for the Volunteer event, {!relatedTo.name}, with {!relatedTo.Volunteer_Organization__c}. It will be taking place on {!relatedTo.Date_and_Time__c}. If you are unable to attend, please remove your name from the volunteer record {!relatedTo.id}.
+
+
+Activity name: {!relatedTo.name}
+Activity Category: {!relatedTo.Volunteer_Events__c}
+Volunteer Organization: {!relatedTo.Volunteer_Organization__r.Name}
+Duration: {!relatedTo.Duration_hours__c}
+Location: 
+• {!relatedTo.Street__c}
+• {!relatedTo.City__c}
+• {!relatedTo.State_Province__c}
+
+Activity Summary:{!relatedTo.Description__c}
+
+Activity Description (Details): {!relatedTo.Event_Summary__c}
+
+
+For more information:
+
+http://login.salesforce.com/{!relatedTo.id}
+-----------------------------------
+ 
+
+</messaging:plainTextEmailBody>
+
+<messaging:htmlEmailBody >
+<font face="verdana" size="2">
+<p>This is a friendly reminder that you have signed up for the Volunteer event, {!relatedTo.name}, with {!relatedTo.Volunteer_Organization__c}. It will be taking place on {!relatedTo.Date_and_Time__c}. If you are unable to attend, please remove your name from the volunteer record {!relatedTo.id}.</p>
+
+
+<br/>Activity name: {!relatedTo.name}
+<br/>Activity Category: {!relatedTo.Volunteer_Events__c}
+<br/>Volunteer Organization: {!relatedTo.Volunteer_Organization__r.Name}
+<br/>Duration: {!relatedTo.Duration_hours__c}
+<br/>Location: 
+<ul>
+<li>{!relatedTo.Street__c}</li>
+<li>{!relatedTo.City__c}</li>
+<li>{!relatedTo.State_Province__c}</li>
+</ul>
+<p>Activity Summary: {!relatedTo.Description__c}</p>
+<p>
+Activity Description (Details): {!relatedTo.Event_Summary__c}
+</p>
+<p>
+For more information: 
+
+http://login.salesforce.com/{!relatedTo.id}
+</p>
+-----------------------------------
+ </font><br/>
+<img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=015A00000009qW6&oid=00DA0000000HkWI&lastMod=1221863256000" border="0"/>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

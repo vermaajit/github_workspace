@@ -1,0 +1,33 @@
+<apex:page tabStyle="vforce__Volunteer_Activity__c" controller="vforce.VolActivityQuickCreateController" action="{!displayNoPermPage}">
+    <apex:sectionHeader title="Add an Activity for a new Volunteer Organization" subtitle="Step 1 of 4" help="http://www.salesforce.com/docs/en/volunteerforce/index_CSH.htm#volunteerforce_activities_wiz.htm"/>
+    
+    <apex:form id="theform">
+        
+        <apex:pageBlock title="Volunteer Organization Info" mode="edit" id="pageblock">
+        
+            <apex:pageBlockButtons location="both">
+                <apex:commandButton action="{!step2}" value="Next"/>
+                <apex:commandButton action="{!cancel}" value="Cancel" immediate="true"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageMessages />
+        
+            <apex:pageBlockSection columns="2" title="Organization Information" id="orgInfoSection">
+                <apex:inputField value="{!npo.Name}" required="true" id="npoName"/>
+                <apex:inputField value="{!npo.vforce__Street__c}"/>
+                <apex:inputField value="{!npo.vforce__Parent_Organization__c}"/>
+                <apex:inputField value="{!npo.vforce__City__c}"/>
+                <apex:inputField value="{!npo.vforce__Organization_Cause__c}"/>
+                <apex:inputField value="{!npo.vforce__State_Province__c}"/>
+                <apex:inputField value="{!npo.vforce__Website__c}"/>
+                <apex:inputField value="{!npo.vforce__Zip_Postal_Code__c}"/>
+                <apex:inputField value="{!npo.vforce__Phone__c}"/>
+                <apex:inputField value="{!npo.vforce__Country__c}"/>
+                <apex:inputField value="{!npo.vforce__Fax__c}"/>
+            </apex:PageBlockSection>
+            <apex:pageBlockSection columns="1">
+                <apex:inputField value="{!npo.vforce__Description__c}"/>
+            </apex:PageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

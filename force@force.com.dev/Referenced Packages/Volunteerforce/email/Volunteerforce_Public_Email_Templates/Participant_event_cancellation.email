@@ -1,0 +1,26 @@
+<messaging:emailTemplate subject="Cancelled:{!relatedTo.name} Event Cancellation" recipientType="User" relatedToTYpe="vforce__Volunteer_Activity__c">
+<messaging:plainTextEmailBody >
+The Volunteer Event {!relatedTo.name} that you have signed up for has been cancelled.
+
+For more information:
+
+http://login.salesforce.com/{!relatedTo.id}
+-----------------------------------
+ 
+
+</messaging:plainTextEmailBody>
+
+<messaging:htmlEmailBody >
+<font face="verdana" size="2">
+<p>The Volunteer Event {!relatedTo.name} that you have signed up for has been cancelled.</p>
+
+<p>
+For more information: 
+
+http://login.salesforce.com/{!relatedTo.id}
+</p>
+-----------------------------------
+ </font><br/>
+<img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=015A00000009qW6&oid=00DA0000000HkWI&lastMod=1221863256000" border="0"/>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <customHelp>Participant_Help_Doc</customHelp>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A junction object used for linking Volunteer Activities to a participant in the activity and to the participant&apos;s role hierarchy at the time of the activity</description>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Activity_DateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Volunteer_Activity__r.Date_and_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Activity Date &amp; Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used only for reporting and is hidden from the end user.  It is maintained by apex code by copying the values from the user record when participant is added and when the User record changes.</description>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Business Unit A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Unit B</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Unit C</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Unit D</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Unit E</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Unit F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used only for reporting and is hidden from the end user.  It is maintained by apex code by copying the values from the user record when participant is added and when the User record changes.</description>
+        <externalId>false</externalId>
+        <label>Department</label>
+        <picklist>
+            <picklistValues>
+                <fullName>R&amp;D</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Technical Support</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Educational Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Employee Success</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Facilities</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Duration_hours__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If left blank, this field is updated programmatically when new volunteer activity participants are created.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If left blank, this field is updated based on the Activity duration.</inlineHelpText>
+        <label>Participation (hours)</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsCurrentUser__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used by the &quot;My Volunteering&quot; report to only return the Volunteer Activity Participant records that the current user has signed up for.</description>
+        <externalId>false</externalId>
+        <formula>IF(User__c=$User.Id, 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Used by the &quot;My Volunteering&quot; report.</inlineHelpText>
+        <label>IsCurrentUser</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Participant__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/&quot; &amp; Id,  User__r.FirstName &amp; &quot; &quot; &amp; User__r.LastName, &quot;_self&quot; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Participant</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Region__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used only for reporting and is hidden from the end user.  It is maintained by apex code by copying the values from the user record when participant is added and when the User record changes.</description>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Japan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>US-Central</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>US-West</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>US-East</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AsiaPac</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N30000002ECnbEAG</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Volunteer_Activity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Volunteer Activity</label>
+        <referenceTo>Volunteer_Activity__c</referenceTo>
+        <relationshipName>R00N30000002ECnNEAW</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <label>Volunteer Participant</label>
+    <nameField>
+        <displayFormat>Participant ID: {000000}</displayFormat>
+        <label>Volunteer Activity Participant ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Volunteer Participants</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Participant__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Volunteer_Activity__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Activity_DateTime__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Duration_hours__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Region__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Department__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Business_Unit__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>User__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Volunteer_Activity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Duration_hours__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>User__c</searchFilterFields>
+        <searchFilterFields>Participant__c</searchFilterFields>
+        <searchFilterFields>Volunteer_Activity__c</searchFilterFields>
+        <searchFilterFields>Activity_DateTime__c</searchFilterFields>
+        <searchFilterFields>Duration_hours__c</searchFilterFields>
+        <searchResultsAdditionalFields>User__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Volunteer_Activity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Region__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Department__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Business_Unit__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Duration_hours_cannot_be_negative</fullName>
+        <active>true</active>
+        <errorConditionFormula>Duration_hours__c  &lt; 0</errorConditionFormula>
+        <errorDisplayField>Duration_hours__c</errorDisplayField>
+        <errorMessage>Participation hours cannot be a negative value.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Sign_Me_Up2</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Sign Me Up!</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>window.open(&quot;/apex/SignMeUpConfirmation?id={!Volunteer_Activity__c.Id}&amp;uid={!User.Id}&quot;,&quot;Confirmation&quot;, &quot;menubar=0,resizable=1,scrollbars=0,width=300,height=200&quot;);</url>
+    </webLinks>
+</CustomObject>
